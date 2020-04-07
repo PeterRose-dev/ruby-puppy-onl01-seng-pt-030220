@@ -7,7 +7,7 @@ class Dog
     save
   end
   def self.all
-    ObjectSpace.each_object(Dog) {|x| p x}
+    @@all
   end
   
   def print_all
