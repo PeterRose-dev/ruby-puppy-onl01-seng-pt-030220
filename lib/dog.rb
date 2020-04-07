@@ -12,7 +12,7 @@ class Dog
   
   def print_all
      
-    @@all.map do |dog| puts dog.name
+    @@all.collect do |dog| puts dog.name
     end
   end
   def self.clear_all 
